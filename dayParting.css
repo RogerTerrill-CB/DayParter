@@ -1,0 +1,34 @@
+#dayParting {
+  border-collapse: collapse;
+  border-spacing: 0px;
+  user-select: none;
+}
+
+.hour-block {
+  height: 30px;
+  width: 30px;
+  border: black 1px solid;
+  border-collapse: collapse;
+}
+
+
+.hour-title {
+  display: inline-block;
+  height: 30px;
+  width: 30px;
+  text-align: center;
+  border: white 1px solid;
+}
+
+.enabled {
+  background: blue;
+}
+
+.day-title {
+  display: inline-block;
+  width:75px;
+}
+
+.preview {
+  background: gray;
+}
